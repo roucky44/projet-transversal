@@ -1,0 +1,18 @@
+@import url(/projet-transversal/src/style/var.css);
+
+/* ===== GLOBAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    list-style-type: none;
+    scroll-behavior: smooth;
+  }
+/* ===== GLOBAL ===== */
+
+/* ===== BODY ===== */
+
+.body-class {
+    background-color: var(--color-black);
+}
