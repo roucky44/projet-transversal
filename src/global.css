@@ -1,18 +1,41 @@
 @import url(/projet-transversal/src/style/var.css);
+@import url(/projet-transversal/src/style/style.css);
 
 /* ===== GLOBAL ===== */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-style: normal;
-    list-style-type: none;
-    scroll-behavior: smooth;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  list-style-type: none;
+  scroll-behavior: smooth;
+}
+
 /* ===== GLOBAL ===== */
+
+
+/* ===== HEADER ===== */
+
+.header-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-yellow {
+    width: 10rem;
+}
+
+/* ===== HEADER ===== */
+
 
 /* ===== BODY ===== */
 
 .body-class {
-    background-color: var(--color-black);
+  background-color: var(--color-black);
+  margin-left: 7rem;
+  margin-right: 7rem;
+  margin-top: 3rem;
 }
+
+/* ===== BODY ===== */

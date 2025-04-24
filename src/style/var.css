@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #FFED00;
+  --primary-color: #ffed00;
 
-    --secondary-color: #ffffff;
+  --secondary-color: #ffffff;
 
-    --color-pink: #f30952;
-    --color-blue: #4ec2ff;
-    --color-orange: #ffa600;
-    --color-black: #000000;
+  --color-pink: #f30952;
+  --color-blue: #4ec2ff;
+  --color-orange: #ffa600;
+  --color-black: #000000;
 }
