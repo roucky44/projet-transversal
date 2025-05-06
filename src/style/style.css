@@ -1,5 +1,118 @@
-/* HEADER */
-.nav-icon {
-    width: 2rem;
-    height: 2rem;
+/* ===== HEADER ===== */
+
+.header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.logo-yellow {
+  width: 10rem;
+}
+
+.nav-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+/* ===== HEADER ===== */
+
+/* ===== HEADER ===== */
+
+.first-section {
+  position: relative;
+  top: -5rem;
+  margin-top: -15rem;
+  margin: 0 auto;
+  height: 35rem;
+  z-index: 10; /* z-index ajusté pour assurer la visibilité par rapport aux autres index!!!! IMPORTANT */
+}
+
+.div-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.star-yellow {
+  width: 35rem;
+  height: 35rem;
+  opacity: 0.8;
+}
+
+.main-title {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35rem;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: -2rem;
+}
+
+.main-h1 {
+  font-family: "Futura", sans-serif;
+  font-size: 4rem;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 0;
+}
+
+.main-h2 {
+  font-family: "Futura", sans-serif;
+  font-size: 4rem;
+  color: var(--primary-color);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding-top: 1rem;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.left-label,
+.right-label {
+  font-family: "Futura", sans-serif;
+  font-size: 0.8rem;
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.left-label {
+  margin-right: auto;
+  animation: slideInFromLeft 1s ease-out;
+}
+
+.right-label {
+  margin-left: auto;
+  animation: slideInFromRight 1s ease-out;
+}
+
+@keyframes slideInFromLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }
+  
+  @keyframes slideInFromRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+  }

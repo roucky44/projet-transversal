@@ -1,5 +1,6 @@
 @import url(/projet-transversal/src/style/var.css);
 @import url(/projet-transversal/src/style/style.css);
+@import url(/projet-transversal/src/style/responsive.css);
 
 /* ===== GLOBAL ===== */
 
@@ -14,20 +15,16 @@
 
 /* ===== GLOBAL ===== */
 
+/* ===== FONT ===== */
 
-/* ===== HEADER ===== */
-
-.header-div {
-    display: flex;
-    justify-content: space-between;
+@font-face {
+  font-family: 'Futura';
+  src: url("/projet-transversal/assets/font/Futura_Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
-.logo-yellow {
-    width: 10rem;
-}
-
-/* ===== HEADER ===== */
-
+/* ===== FONT ===== */
 
 /* ===== BODY ===== */
 
