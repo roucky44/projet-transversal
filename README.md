@@ -31,7 +31,8 @@
 **CréaTech**  
 - Kevin BANGOURA  (CDI)
 - Lucas AUDOUBERT  (CDI)
-- Nicolas FRANÇOIS (MCD)  
+- Nicolas FRANÇOIS (MCD) 
+- Ayman (MCD)  
 - Maé FAGNIEL (CD) 👓  Lead
 - Laura THIAW-KINE (CD)  
 
