@@ -2,6 +2,15 @@
 @import url(/projet-transversal/src/style/style.css);
 @import url(/projet-transversal/src/style/responsive.css);
 
+/* input.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import your old CSS file */
+@import "style/style.css";
+@import "style/var.css";
+
 /* ===== GLOBAL ===== */
 
 * {
