@@ -1,6 +1,9 @@
 @import "style/style.css";
 @import "style/var.css";
 @import "style/navbar.css";
+@import "style/footer.css";
+@import "style/header.css";
+
 /* ===== GLOBAL ===== */
 
 * {
@@ -40,6 +43,7 @@
   margin-right: 7rem;
   margin-top: 3rem;
   font-family: 'Futura', sans-serif;
+  overflow-x: hidden;
 }
 
 /* ===== BODY ===== */

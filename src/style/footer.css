@@ -1,0 +1,132 @@
+/* ===== FOOTER ===== */
+
+.footer {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 7.5rem 2.5rem;
+  text-align: center;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.background-stars {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  opacity: 0.4;
+}
+
+.star1 {
+  transform: rotate(0deg);
+  width: 20%;
+}
+.star2 {
+  transform: rotate(45deg);
+  width: 40%;
+}
+.star3 {
+  transform: rotate(22deg);
+  width: 60%;
+}
+
+.contact-button {
+  margin-bottom: 5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-button a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 0.0625rem solid white;
+  border-radius: 1.875rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.0625rem;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-button a:hover {
+  background: white;
+  color: black;
+}
+
+.legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.25rem;
+  font-size: 0.75rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.legal-links a {
+  color: white;
+  text-decoration: none;
+}
+.legal-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+  position: relative;
+  z-index: 1;
+  gap: 2.5rem;
+}
+
+.social-links img {
+  width: 1.25rem;
+  height: 1.25rem;
+  filter: brightness(1000%);
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.2);
+}
+
+.alt-logo-img {
+  width: 15rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== FOOTER ===== */
