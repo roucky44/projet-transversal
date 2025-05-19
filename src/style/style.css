@@ -56,6 +56,9 @@
   gap: 1rem; /* space between the star and the text */
 }
 
+.title-logo {
+  width: 2rem;
+}
 
 .main-title {
   position: relative;
@@ -150,12 +153,49 @@
     max-width: 10rem; /* adjust as needed */
   }
 
+
+
+
+
+
   /* ===== PROGRAMMATION ===== */
 
   .h3-prog {
-    color: var--(--primary-color);
-    font-size: xx-large;
+    z-index: 1;
+    color: var(--secondary-color);
+    font-size: xxx-large;
+    letter-spacing: 0.5rem;
   }
+
+  .h3-2025 {
+    z-index: 1;
+    color: var(--secondary-color);
+    font-size: xxx-large;
+    margin-bottom: 10rem;
+    letter-spacing: 0.5rem;
+    font-family: Futura-Thin;
+  }
+
+  .programmation img {
+    z-index: inherit;
+    width: 30rem;
+  }
+
+  .position-relative {
+  position: relative;
+}
+
+.circles {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  pointer-events: none; /* facultatif, pour ne pas gêner les clics */
+}
+
+.dflex {
+  position: relative;
+  z-index: 2;
+}
 
   /* ===== PROGRAMMATION ===== */
   
@@ -285,6 +325,11 @@
 
 .social-links img:hover {
   transform: scale(1.2);
+}
+
+.alt-logo-img {
+  width: 15rem;
+  margin-bottom: 2rem;
 }
 
 

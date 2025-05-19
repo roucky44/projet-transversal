@@ -23,6 +23,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Futura-Thin';
+  src: url("/assets/font/Futura_Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* ===== FONT ===== */
 
 /* ===== BODY ===== */
@@ -32,6 +39,7 @@
   margin-left: 7rem;
   margin-right: 7rem;
   margin-top: 3rem;
+  font-family: 'Futura', sans-serif;
 }
 
 /* ===== BODY ===== */
