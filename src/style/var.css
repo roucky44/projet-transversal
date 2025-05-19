@@ -1,10 +1,15 @@
 :root {
   --primary-color: #ffed00;
 
-  --secondary-color: #ffffff;
+  --secondary-color: #f5f5f5;
 
   --color-pink: #f30952;
   --color-blue: #4ec2ff;
   --color-orange: #ffa600;
   --color-black: #000000;
+
+  --darkbg: #1c1c1c;
+  --btCinza: #222;
+  --icons: #eeff00;
+  --branco: #fff;
 }

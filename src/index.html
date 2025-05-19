@@ -7,6 +7,9 @@
   <title>Jazz À Vienne Festival | Access</title>
   <link rel="stylesheet" href="global.css">
   <link rel="icon" href="/projet-transversal/assets/logo/dynamic-logo-32.png" type="image/x-icon">
+  <link rel="icon" href="/assets/logo/dynamic-logo-32.png" type="image/x-icon">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="body-class">
@@ -16,9 +19,22 @@
       <div class="main-logo">
         <img class="logo-yellow" src="/assets/logo/logo-yellow.png" alt="">
       </div>
-      <div class="navbar">
-        <img class="nav-icon" src="/assets/icons/nav-white.png" alt="">
+
+      <div class="container">
+        <input type="checkbox" id="toggle" checked />
+        <label class="button" for="toggle">
+          <nav class="nav">
+            <ul>
+              <li><a href="#0"><img src="/assets/icons/nav/home.svg" alt="home" style="width: ;"><i class="ri-mic-line"></i></a></li>
+              <li><a href="#programmation"><img src="/assets/icons/nav/calendar.svg" alt="calendar"><i class="ri-message-2-line"></i></a></li>
+              <li><a href="#game"><img src="/assets/icons/nav/game.svg" alt="game"><i class="ri-file-line"></i></a></li>
+              <li><a href="#news"><img src="/assets/icons/nav/news.svg" alt="news"><i class="ri-send-plane-2-line"></i></a>
+              </li>
+            </ul>
+          </nav>
+        </label>
       </div>
+
     </div>
   </header>
 
@@ -32,6 +48,7 @@
         <div class="title-wrapper">
           <p class="left-label">agir ――― ensemble</p>
           <div class="title-container">
+            <img src="/assets/icons/footer/flower.svg" alt="flower">
             <h1 class="main-h1">JAZZ [À] VIENNE</h1>
             <div class="h2-wrapper">
               <h2 class="main-h2">FESTIVAL</h2>
@@ -43,52 +60,71 @@
       </div>
     </section>
 
+    <section class="programmation">
+      <div class="prog-title">
+        <h3 class="h3-prog">Programmation 2025</h3>
+      </div>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <p style="color: white;">This is a text</p>
+      </div>
+    </section>
+
   </main>
 
-<footer class="text-white py-12 px-6 md:px-12 relative overflow-hidden">
-<footer class="footer">
-  <!-- SVG Géants en fond -->
-  <div class="background-stars">
-    <img src="assets/icons/footer/branch.svg" alt="Star 1" class="star star1">
-    <img src="assets/icons/footer/branch.svg" alt="Star 2" class="star star2">
-    <img src="assets/icons/footer/branch.svg" alt="Star 3" class="star star3">
-  </div>
-
-  <!-- Bouton de contact -->
-  <div class="contact-button">
-    <a href="/contact">NOUS CONTACTER</a>
-  </div>
-
-  <!-- Liens légaux -->
-  <div class="legal-links">
-    <a href="#">Politique de confidentialité</a>
-    <a href="#">Politique des cookies</a>
-    <a href="#">Termes et conditions</a>
-  </div>
-
-  <!-- Navigation -->
-  <div class="footer-nav">
-    <a href="#">Projets</a>
-    <a href="#">News</a>
-    <a href="#">À propos</a>
-    <a href="#">Promotion</a>
-    <a href="#">Contact</a>
-  </div>
-
-  <!-- Réseaux sociaux -->
-  <div class="social-links">
-    <a href="#"><img src="/assets/icons/footer/instagram.svg" alt="Instagram"></a>
-    <a href="#"><img src="/assets/icons/footer/facebook.svg" alt="Facebook"></a>
-    <a href="#"><img src="/assets/icons/footer/linkedin.svg" alt="LinkedIn"></a>
-    <a href="#"><img src="/assets/icons/footer/spotify.svg" alt="Spotify"></a>
-    <a href="#"><img src="/assets/icons/footer/youtube.svg" alt="Youtube"></a>
-    <a href="#"><img src="/assets/icons/footer/tiktok.svg" alt="Tiktok"></a>
-    <a href="#"><img src="/assets/icons/footer/soundloud.svg" alt="Soundcloud"></a>
-  </div>
-</footer>
 
 
-  <script src="src/main.js"></script> 
+
+
+
+
+
+
+  <footer class="text-white py-12 px-6 md:px-12 relative overflow-hidden">
+    <footer class="footer">
+      <!-- SVG Géants en fond -->
+      <div class="background-stars">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 1" class="star star1">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 2" class="star star2">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 3" class="star star3">
+      </div>
+
+      <!-- Bouton de contact -->
+      <div class="contact-button">
+        <a href="">NOUS CONTACTER</a>
+      </div>
+
+      <!-- Liens légaux -->
+      <div class="legal-links">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Politique des cookies</a>
+        <a href="#">Termes et conditions</a>
+      </div>
+
+      <!-- Navigation -->
+      <div class="footer-nav">
+        <a href="#">Projets</a>
+        <a href="#">News</a>
+        <a href="#">À propos</a>
+        <a href="#">Promotion</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <!-- Réseaux sociaux -->
+      <div class="social-links">
+        <a href="#"><img src="/assets/icons/footer/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="/assets/icons/footer/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="/assets/icons/footer/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="/assets/icons/footer/spotify.svg" alt="Spotify"></a>
+        <a href="#"><img src="/assets/icons/footer/youtube.svg" alt="Youtube"></a>
+        <a href="#"><img src="/assets/icons/footer/tiktok.svg" alt="Tiktok"></a>
+      </div>
+    </footer>
+
+
+    <script src="/src/js/main.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

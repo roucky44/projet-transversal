@@ -149,6 +149,15 @@
     text-align: left;
     max-width: 10rem; /* adjust as needed */
   }
+
+  /* ===== PROGRAMMATION ===== */
+
+  .h3-prog {
+    color: var--(--primary-color);
+    font-size: xx-large;
+  }
+
+  /* ===== PROGRAMMATION ===== */
   
 /* ===== MAIN ===== */
 
@@ -162,6 +171,9 @@
   text-align: center;
   overflow: hidden;
   font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
 }
 
 .background-stars {
@@ -261,6 +273,7 @@
   gap: 1.875rem;
   position: relative;
   z-index: 1;
+  gap: 2.5rem;
 }
 
 .social-links img {
