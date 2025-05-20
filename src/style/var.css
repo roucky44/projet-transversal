@@ -19,3 +19,7 @@
   --align-center: align-items: center;
   --flex-column: flex-direction: column;
 }
+
+.gradient-blue {
+  background: linear-gradient(to right, #02aab0, #00cdac);
+}

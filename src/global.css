@@ -3,6 +3,7 @@
 @import "style/navbar.css";
 @import "style/footer.css";
 @import "style/header.css";
+@import "style/game.css";
 
 /* ===== GLOBAL ===== */
 
@@ -20,14 +21,15 @@
 /* ===== FONT ===== */
 
 @font-face {
-  font-family: 'Futura';
-  src: url("/projet-transversal/assets/font/Futura_Medium.ttf") format("truetype");
+  font-family: "Futura";
+  src: url("/projet-transversal/assets/font/Futura_Medium.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Futura-Thin';
+  font-family: "Futura-Thin";
   src: url("/assets/font/Futura_Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
@@ -42,7 +44,7 @@
   margin-left: 7rem;
   margin-right: 7rem;
   margin-top: 3rem;
-  font-family: 'Futura', sans-serif;
+  font-family: "Futura", sans-serif;
   overflow-x: hidden;
 }
 
