@@ -1,7 +1,6 @@
 node_modules
 user
 com
-assets
 package-lock.json
 package.json
 .gitignore
