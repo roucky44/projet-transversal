@@ -207,7 +207,7 @@
   height: 15rem;
 }
 
-.card {
+.card-artist {
   display: flex;
   flex-direction: row;
   align-items: center;
