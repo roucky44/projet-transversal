@@ -23,3 +23,11 @@
 .gradient-blue {
   background: linear-gradient(to right, #02aab0, #00cdac);
 }
+
+.dflex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}

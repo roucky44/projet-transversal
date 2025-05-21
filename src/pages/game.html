@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/global.css">
+    <link rel="stylesheet" href="/src/style/game.css">
+    <link rel="icon" href="/projet-transversal/assets/logo/dynamic-logo-32.png" type="image/x-icon">
+    <link rel="icon" href="/assets/logo/dynamic-logo-32.png" type="image/x-icon">
+    <title>Jazz À Vienne Festival | Game</title>
+</head>
+
+<body class="body-class">
+    <header>
+        <div class="header-div">
+            <div class="main-logo">
+                <img class="logo-yellow" src="/assets/logo/logo-yellow.png" alt="">
+            </div>
+
+            <div class="container">
+                <input type="checkbox" id="toggle" checked />
+                <label class="button" for="toggle">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="/src/index.html"><img src="/assets/icons/nav/home.svg" alt="home"></a></li>
+                            <li><a href="#programmation"><img src="/assets/icons/nav/calendar.svg" alt="calendar"></a>
+                            </li>
+                            <li><a href="pages/game.html"><img src="/assets/icons/nav/game.svg" alt="game"></a></li>
+                            <li><a href="#conteneur_principal"><img src="/assets/icons/nav/news.svg" alt="news"></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </label>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <main>
+        <section class="first-section">
+            <div class="div-first">
+                <img class="star-yellow" src="/assets/art/star-yellow.svg" alt="">
+            </div>
+            <div class="main-title">
+                <div class="title-wrapper">
+                    <p class="left-label">agir ――― ensemble</p>
+                    <div class="title-container">
+                        <img class="title-logo" src="/assets/icons/footer/simplified_logo_jaune.svg" alt="flower">
+                        <h1 class="main-h1">JAZZ [À] VIENNE</h1>
+                        <div class="h2-wrapper">
+                            <h2 class="main-h2">FESTIVAL</h2>
+                            <p class="bottom-right-label">Festival spécialisé dans l'accessibilité tout les domaines</p>
+                        </div>
+                    </div>
+                    <p class="right-label">crée ――― ton histoire</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="game">
+            <div class="main-div">
+                <div id="game-title">
+                    <h2 class="h2-game">Il est temps de s'amuser !</h2>
+                    <h3 class="h3-game">Tente de gagner des <span>Boissons</span> et des <span>Goodies</span> pour toi
+                        et tes
+                        <span>amis</span> !
+                    </h3>
+                </div>
+                <div id="cup">
+                    <img id="cup-id" src="/assets/icons/game/cup.png" alt="cup">
+                </div>
+            </div>
+
+
+            <div class="contact-button dflex justify-center">
+                <a id="how-to-play" href="">Comment jouer ?</a>
+            </div>
+
+            <div class="game-class">
+                <!-- 10 cartes générées -->
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" text-anchor="none" font-size="none"
+                                                font-weight="none" font-family="none" stroke-dashoffset="0"
+                                                stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter"
+                                                stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero"
+                                                fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- x9 copies -->
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <div class="back">
+                            <div class="back-content">
+                                <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
+                                        fill="#20c997" stroke="#0fa3b1" stroke-width="2"
+                                        filter="drop-shadow(0 0 8px #20c99788)" />
+                                </svg>
+                                <strong>Clique moi !</strong>
+                            </div>
+                        </div>
+                        <div class="front">
+
+                            <div class="img">
+                                <div class="circle">
+                                </div>
+                                <div class="circle" id="right">
+                                </div>
+                                <div class="circle" id="bottom">
+                                </div>
+                            </div>
+
+                            <div class="front-content">
+                                <small class="badge">Pasta</small>
+                                <div class="description">
+                                    <div class="title">
+                                        <p class="title">
+                                            <strong>Spaguetti Bolognese</strong>
+                                        </p>
+                                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g style="mix-blend-mode: normal" fill="#20c997">
+                                                <g transform="scale(8,8)">
+                                                    <path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <p class="card-footer">
+                                        30 Mins &nbsp; | &nbsp; 1 Serving
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="how-to-play-popup" class="popup-overlay" style="display:none;">
+                <div class="popup-content">
+                    <span class="close-popup" id="close-how-to-play">&times;</span>
+                    <h3>Comment jouer ?</h3>
+                    <br></br>
+                    <p>
+                        Retourne une carte en cliquant dessus.<br>
+                        Une seule carte peut être retournée à la fois.<br>
+                        Découvre si tu as gagné une boisson ou un goodie !
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+      <footer class="text-white py-12 px-6 md:px-12 relative overflow-hidden">
+    <footer class="footer">
+
+      <div class="background-stars">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 1" class="star star1">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 2" class="star star2">
+        <img src="/assets/icons/footer/branch.svg" alt="Star 3" class="star star3">
+      </div>
+
+      <div class="contact-button">
+        <a href="">NOUS CONTACTER</a>
+      </div>
+
+      <div class="alt-logo">
+        <img class="alt-logo-img" src="/assets/img/footer/alt-logo-footer.png" alt="Logo alternatif">
+      </div>
+
+
+      <div class="legal-links">
+        <a href="#">Politique de confidentialité</a>
+        <a href="#">Politique des cookies</a>
+        <a href="#">Termes et conditions</a>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#">Projets</a>
+        <a href="#">News</a>
+        <a href="#">À propos</a>
+        <a href="#">Promotion</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><img src="/assets/icons/footer/instagram.svg" alt="Instagram"></a>
+        <a href="#"><img src="/assets/icons/footer/facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="/assets/icons/footer/linkedin.svg" alt="LinkedIn"></a>
+        <a href="#"><img src="/assets/icons/footer/spotify.svg" alt="Spotify"></a>
+        <a href="#"><img src="/assets/icons/footer/youtube.svg" alt="Youtube"></a>
+        <a href="#"><img src="/assets/icons/footer/tiktok.svg" alt="Tiktok"></a>
+      </div>
+    </footer>
+
+</body>
+
+</html>

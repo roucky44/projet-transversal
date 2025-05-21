@@ -80,7 +80,7 @@
 }
 
 .main-div {
-    width: 100%;
+  width: 100%;
 }
 
 #cup {
@@ -129,7 +129,8 @@
   border-radius: 5px;
 }
 
-.front, .back {
+.front,
+.back {
   background-color: #151515;
   position: absolute;
   width: 100%;
@@ -151,11 +152,17 @@
 
 .back::before {
   position: absolute;
-  content: ' ';
+  content: " ";
   display: block;
   width: 160px;
   height: 160%;
-  background: linear-gradient(to right, transparent, #02aab0, #00cdac, transparent);
+  background: linear-gradient(
+    to right,
+    transparent,
+    #02aab0,
+    #00cdac,
+    transparent
+  );
   animation: rotation_481 5000ms infinite linear;
 }
 
@@ -282,16 +289,12 @@
   }
 }
 
-
-
-
-
 /* ===== ACTUAL GAME ===== */
 
 .game-class {
-    display: flex;
-    gap: 2rem;
-    margin-top: 8rem;
+  display: flex;
+  gap: 2rem;
+  margin-top: 8rem;
 }
 
 .card .content {
@@ -302,18 +305,57 @@
 .card.flipped .content {
   transform: rotateY(180deg);
 }
-.card .front, .card .back {
+.card .front,
+.card .back {
   backface-visibility: hidden;
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
 }
 .card .front {
   transform: rotateY(180deg);
 }
 
 /* ===== ACTUAL GAME ===== */
+
+/* ===== GAME POPUP ===== */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.popup-content {
+  background: #222;
+  color: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 24px #0008;
+  position: relative;
+  max-width: 90vw;
+  max-height: 80vh;
+  text-align: center;
+}
+.close-popup {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* ===== GAME POPUP ===== */
+
+
 
 
 
