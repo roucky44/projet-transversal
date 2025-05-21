@@ -75,7 +75,8 @@
 
 .h3-game span {
   background: linear-gradient(to right, #02aab0, #00cdac);
-  -webkit-background-clip: text;
+    -webkit-background-clip: text; /* Old version but i keep it in case for compatibility */
+  background-clip: text; /* New vesrion of   -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
@@ -419,5 +420,5 @@
 
 .game-stats {
   color: #fff;
-  font-family: ;
+  font-family: Futura-Thin;
 }
