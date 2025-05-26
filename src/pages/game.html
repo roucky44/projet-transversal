@@ -60,6 +60,10 @@
             </div>
         </section>
 
+
+
+
+
         <section class="game">
             <div class="main-div">
                 <div id="game-title">
@@ -73,6 +77,26 @@
                     <img id="cup-id" src="/assets/icons/game/cup.png" alt="cup">
                 </div>
             </div>
+
+            <div style="margin-bottom: -1rem; display: flex; justify-content: center;" class="contact-button">
+                <a id="show-video-btn" href="#">Voir la vidéo</a>
+            </div>
+            <div id="video-popup" class="popup-overlay" style="display:none;">
+                <div class="popup-content" style="max-width:600px;">
+                    <span class="close-popup" id="close-video-popup">&times;</span>
+                    <video controls width="100%" class="video-mp4" src="/assets/video/lv_animation_sound.mp4"></video>
+                </div>
+            </div>
+
+
+            <script>
+                document.getElementById('show-video-btn').addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.getElementById('video-popup').style.display = 'block';
+                    // Scroll jusqu'à la vidéo si besoin :
+                    document.getElementById('video-popup').scrollIntoView({ behavior: "smooth" });
+                });
+            </script>
 
 
             <div class="contact-button dflex justify-center">

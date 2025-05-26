@@ -422,3 +422,14 @@
   color: #fff;
   font-family: Futura-Thin;
 }
+
+.video-mp4 {
+  width: 50%;
+  height: 50%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}

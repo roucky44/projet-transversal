@@ -28,10 +28,7 @@ cardsData.forEach((card, idx) => {
     <div class="content">
       <div class="back">
         <div class="back-content">
-          <svg width="40" height="40" viewBox="0 0 50 50" fill="none">
-            <polygon points="25,3 31,19 48,19 34,29 39,46 25,36 11,46 16,29 2,19 19,19"
-              fill="#20c997" stroke="#0fa3b1" stroke-width="2" />
-          </svg>
+          <img src="/assets/icons/footer/simplified_logo.svg" alt="memory" style="width:40px; height:40px; object-fit:contain;">
         </div>
       </div>
       <div class="front">
